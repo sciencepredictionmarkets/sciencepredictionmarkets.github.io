@@ -1,0 +1,17 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+@media (min-width: 350px) and (max-width: 767px) {
+  .navbar-brand {
+    font-size: 1em !important;
+  }
+}
+
+@media (min-width: 0px) and (max-width: 349px) {
+  .navbar-brand {
+    font-size: 0.7em !important;
+  }
+}
