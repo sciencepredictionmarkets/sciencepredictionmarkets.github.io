@@ -10,9 +10,9 @@ body {
   }
 }*/
 
-@media (min-width: 0px) and (max-width: 349px) {
+@media (min-width: 0px) and (max-width: 450px) {
   .navbar-brand {
-    font-size: 0.7em !important;
+    font-size: 0.75em !important;
   }
 }
 
