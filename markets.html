@@ -39,11 +39,17 @@
                     </button>
                     <a class="navbar-brand" href="/index.html">The Science Prediction Market Project</a>
                 </div>
-                <div class="navbar-collapse collapse" id="navbar-collapse">
+                <div class="navbar-collapse collapse">
                     <ul class="nav navbar-nav">
                         <li id="home"><a href="/index.html">Home</a></li>
                         <li id="background"><a href="/background.html">Background</a></li>
-                        <li id="markets" class="active"><a href="/markets.html">Markets</a></li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Markets<span class="caret"></span></a>
+                            <ul class="dropdown-menu" role="menu">
+                                <li class="active"><a href="/markets.html">Overview</a></li>
+                                <li><a href="/marketdetails.html">Details</a></li>
+                            </ul>
+                        </li>
                         <li id="people"><a href="/people.html">People</a></li>
                         <li id="links"><a href="/links.html">Links</a></li>
                     </ul>
@@ -54,7 +60,7 @@
         <div class="container">
             <!-- Example row of columns -->
             <div class="page-header">
-                <h1>Markets</h1>
+                <h1>Market overview</h1>
             </div>
             <div class="row">
 <div class="col-sm-4">
@@ -91,6 +97,7 @@
                         </div>
                         <div class="panel-body">
                             <p>The <a href="http://www.ref.ac.uk/" target="_blank">Research Excellence Framework (REF)</a> in the UK is a new system for assessing UK research. We will have participants bet on the outcome of the REF before the outcome is known, for two different types of departments.</p>
+                            <p>See <a href="marketdetails.html">Market details</a> for an extensive summary of the project.</p>
                             <table class="table">
                                 <thead>
                                     <tr>
@@ -114,7 +121,7 @@
                                 </tbody>
                             </table>
                             <h4>
-                                <span class="label label-success">Now open</span>
+                                <span class="label label-info">Data analysis</span>
                             </h4>
                         </div>
                     </div>

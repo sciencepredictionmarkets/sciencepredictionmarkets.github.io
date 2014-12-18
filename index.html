@@ -20,9 +20,9 @@
 
         <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
         <!--[if lt IE 9]>
-            <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-            <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-        <![endif]-->
+<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+<![endif]-->
 
     </head>
 
@@ -43,7 +43,13 @@
                     <ul class="nav navbar-nav">
                         <li id="home" class="active"><a href="/index.html">Home</a></li>
                         <li id="background"><a href="/background.html">Background</a></li>
-                        <li id="markets"><a href="/markets.html">Markets</a></li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Markets<span class="caret"></span></a>
+                            <ul class="dropdown-menu" role="menu">
+                                <li><a href="/markets.html">Overview</a></li>
+                                <li><a href="/marketdetails.html">Details</a></li>
+                            </ul>
+                        </li>
                         <li id="people"><a href="/people.html">People</a></li>
                         <li id="links"><a href="/links.html">Links</a></li>
                     </ul>
@@ -101,22 +107,22 @@
                     <div class="col-md-6">
                         <div class="panel panel-default">
                             <div class="panel-heading">
-                                <h3 class="panel-title">RP: Cancer biology</h3>
+                                <h3 class="panel-title">UK REF</h3>
                             </div>
                             <div class="panel-body">
-                                <p>The <a href="https://osf.io/e81xl/wiki/home">Reproducibility Project: Cancer Biology</a>, a collaboration between <a href="https://www.scienceexchange.com/">Science Exchange</a> and the <a href="http://centerforopenscience.org/">Center for Open Science</a>, is independently replicating 50 high-impact cancer biology studies published between 2010-2012 using the Science Exchange network of expert scientific labs. Our participants will bet on which studies will be successfully replicated.</p>
-                                <p><a class="btn btn-default" href="/markets.html" role="button">View details &raquo;</a></p>
+                                <p>The <a href="http://www.ref.ac.uk/" target="_blank">Research Excellence Framework (REF)</a> in the UK is a new system for assessing UK research. We have had participants bet on the outcome of the REF before the outcome was known, for two different types of departments.</p>
+                                <p><a class="btn btn-default" href="/marketdetails.html" role="button">Market details &raquo;</a></p>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-6">
                         <div class="panel panel-default">
                             <div class="panel-heading">
-                                <h3 class="panel-title">UK REF</h3>
+                                <h3 class="panel-title">RP: Cancer biology</h3>
                             </div>
                             <div class="panel-body">
-                                <p>The <a href="http://www.ref.ac.uk/" target="_blank">Research Excellence Framework (REF)</a> in the UK is a new system for assessing UK research. We will have participants bet on the outcome of the REF before the outcome is known, for two different types of departments.</p>
-                                <p><a class="btn btn-default" href="/markets.html" role="button">View details &raquo;</a></p>
+                                <p>The <a href="https://osf.io/e81xl/wiki/home">Reproducibility Project: Cancer Biology</a>, a collaboration between <a href="https://www.scienceexchange.com/">Science Exchange</a> and the <a href="http://centerforopenscience.org/">Center for Open Science</a>, is independently replicating 50 high-impact cancer biology studies published between 2010-2012 using the Science Exchange network of expert scientific labs. Our participants will bet on which studies will be successfully replicated.</p>
+                                <p><a class="btn btn-default" href="/markets.html" role="button">Market overview &raquo;</a></p>
                             </div>
                         </div>
                     </div>
